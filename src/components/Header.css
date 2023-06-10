@@ -1,0 +1,50 @@
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    max-width: 1140px;  
+    margin: 0 auto;
+}
+
+.cabecalho .menu{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+
+.cabecalho nav a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #222222;
+    font-size: 17px;
+    padding: 10px 20px;
+    margin-right: 0.5em;
+    transition: 0.3s ;
+}
+
+.cabecalho nav a:hover{
+    border-bottom: 1px solid #000000;
+}
+
+
+.cabecalho nav .btn-login{
+    border: none;
+    border: 2px solid #000000;
+    background: transparent;
+    text-decoration: none;
+    font-weight: bold;
+    color: #222222;
+    font-size: 17px;
+    padding: 10px 20px;
+    margin: 0.2em;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+

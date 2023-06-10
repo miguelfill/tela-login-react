@@ -1,0 +1,17 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  height: 100vh;
+  color: #222222;
+  background: url(../assets/54.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-family: 'Poppins';
+}
+
+button{
+  cursor: pointer;
+}
