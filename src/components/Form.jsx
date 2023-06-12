@@ -10,13 +10,13 @@ const Form = () => {
 
             <form action="" className='form'>
                 <div className='input-box'>
-                  <input type="email"/>
-                  <label>Email</label>
+                  <input className='input-email' type="email" placeholder='Email'/>
                 </div>
+
                 <div className='input-box'>
-                  <input type="password"/>
-                  <label>Senha</label>
+                  <input className='input-senha' type="password" placeholder='Senha'/>
                 </div>
+
                 <button className='button'>Login</button>
             </form>
 

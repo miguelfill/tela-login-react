@@ -23,7 +23,7 @@
 
 .login{
     font-weight: 700;
-    font-size: 24px;
+    font-size: 30px;
     text-align: center;
 }
 
@@ -39,24 +39,10 @@
 .input-box{
     position: relative;
     width: 100%;
-    height: 40px;
-    border-bottom: 2px solid #000000;
+    height: 50px;
+    border-bottom: 2px solid #222222;
 }
 
-.input-box label{
-    position: absolute;
-    top: 50%;
-    left: 5px;
-    transform: translateY(-50%);
-    font-size: 1em;
-    pointer-events: none;
-    transition: .5s;
-}
-
-.input-box input:focus~label,
-.input-box input:valid~label{
-    top: -4px;
-}
 
 .input-box input{
     width: 100%;
@@ -64,6 +50,16 @@
     background: transparent;
     border: none;
     outline: none;
+}
+
+.input-email::placeholder{
+    color: #000000;
+    font-weight: bold;
+}
+
+.input-senha::placeholder{
+    color: #000000;
+    font-weight: bold;
 }
 
 .button{
@@ -75,9 +71,7 @@
     width: 100%;
     padding-top: 5px;
     padding-bottom: 5px;
-    cursor: pointer;
 }
-
 
 .palavra-separacao{
     margin-top: 20px;
